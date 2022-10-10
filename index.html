@@ -11,17 +11,30 @@
     
     <!--
         aqui um comentário
+
+        Para adicionar as informações iniciais obrigatórias do arquivo HTML,
+        digitar esclamação (!) e dar enter, o VsCode completará com as informações.
+        
+        Escrever código solamente entre as tags <body> e </body>.
     -->
+
     <h1>
         Vamos ver no que dá
     </h1>
     
-    Teste
+    <h2> Teste </h2>
     
     <p>
        O que é isso ?
     </p>
-    
+
+
+
+    <!--
+       Outro assunto ----------------------------------------------
+    -->
+
+
     <!--
         exercício
             tag <strong> e <b> deixam em negrito
@@ -33,17 +46,24 @@
     -->
     
     
-        <p>
-            <em>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                Ipsum magnam qui officiis, <b> mollitia </b> asperiores minima ut 
-                eos et <b> voluptate </b>  consectetur aliquid inventore harum maxime,
-                 nulla quaerat itaque. Neque, adipisci animi.
-            </em>
-        </p>
+    <p>
+         <em>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+            Ipsum magnam qui officiis, <b> mollitia </b> asperiores minima ut 
+            eos et <b> voluptate </b>  consectetur aliquid inventore harum maxime,
+            nulla quaerat itaque. Neque, adipisci animi.
+         </em>
+    </p>
     
-        <a href="https://google.com"> Dá um google </a>
+    <a href="https://google.com"> Dá um google </a>
     
+
+
+    <!--
+       Outro assunto ----------------------------------------------
+    -->
+
+
         <!--
             Caracteres reservados:
                 < = &lt; 
@@ -52,19 +72,212 @@
                 " = &quot;
                 ' = &apos;
         -->
-    
-        <br>
-        &lt;Vou&gt; escrever &quot;aqui&quot; para dar um &apos;exemplo&apos; dos caracteres reservados &amp; ver no que dá. 
-
         
-    <!--
-        Listas
+    <p>
+        <br>
+        &lt;Vou&gt; escrever &quot;aqui&quot; para dar um &apos;exemplo&apos; 
+        dos caracteres reservados &amp; ver no que dá. 
+        
+        
+        <h2> Listas em HTML </h2>
+        
+    </p>
 
-        -ordenadas:         tag <ol>
-        -não ordenadas:     tag <ul>
-            
-            tópicos:        tag <li>
+
+
+    <!--
+        Outro assunto ----------------------------------------------
     -->
+    
+
+    
+        <!--
+            Listas
+
+            -ordenadas:         tag <ol>
+            -não ordenadas:     tag <ul>
+                
+                tópicos:        tag <li>
+        -->
+
+
+    <h3> Receita de caipirinha </h3>
+        <h4>Ingredientes</h4>
+
+            <ul>
+                <li>2 limões;</li>
+                <li>3 colheres de açúcar refinado;</li>
+                <li>80ml de cachaça;</li>   
+                <li>Gelo em cubos.</li>     
+            </ul>
+
+
+        <h4> Modo de preparo </h4>
+
+        <ol>
+            <li> Corte as duas extremidades do limão e depois corte em quatro gomos;</li>
+            <li> Coloque os limões dentro de uma coqueteleira e coloque o açúcar; </li>
+            <li> Mascere sem pressionar a casca do limão; </li>
+            <li> Adicione o gelo; </li>
+            <li> Adicione a cachaça; </li>
+            <li> Chacoalhe a coqueteleira e depois sirva.</li>
+        </ol>
+
+
+            
+<!--
+     Outro assunto    ----------------------------------------------
+ -->
+
+
+
+    <h2>Citações</h2>
+
+      <B> Tipo 1: </B>
+    <blockquote cite="http://developer.mozilla.org">
+        <p> Esta é uma citação tirada da Mozilla Dev Center </p> 
+
+    </blockquote>
+
+
+    <B> Tipo 2: </B>
+    <p>
+        De acordo com <a href="https://developer.mozilla.org/pt-BR/docs/Web/HTML/Element/blockquote">
+            <cite> página MDN blockquote </cite>
+        </a>
+    </p>
+
+
+    <B> Tipo 3: </B>
+    <p>
+        O elemento quote - <code> &lt;q&gt;</code> - é <q cite="https://developer.mozilla.org/pt-BR/docs/Web/HTML/Element/blockquote"> usado para citações curtas que não precisam de parágrafo
+             ou quebras de linha.</q> 
+        <a href="https://developer.mozilla.org/pt-BR/docs/Web/HTML/Element/blockquote"> <cite>MDN q page </cite></a>
+
+    </p>
+    
+
+
+    <!--
+        Outro assunto    ----------------------------------------------
+    -->
+
+
+    <h2> Abreviações </h2>
+    <p> 
+        O <abbr title="PlayStation 4">PS4</abbr> é um console feito para jogar jogos.
+    </p>
+
+
+
+    <!--
+        Outro assunto    ----------------------------------------------
+    -->
+
+
+    <h2> Usando a tag adress </h2>
+
+    <address>
+        
+        <p> 
+        Pedro Melo <br>
+        <b> São Paulo, SP </b>
+        </p>
+
+    </address>
+
+
+
+    <!--
+        Outro assunto    ----------------------------------------------
+    -->
+
+
+
+    <!--    
+        Listas de descrição
+            <dl>
+                <dt></dt>
+                <dd>?</dd>
+            </dl>
+    -->
+
+    <h2> Listas de descrição </h2>
+    
+    <dl>
+        <dt><b> Hypertext</b> </dt>
+        <dd> É um hiper texto com possibilidades </dd>
+
+        <dt> <b> Markup </b> </dt>
+        <dd> Marcação de texto </dd>
+        
+        <dt> <b> Language </b> </dt>
+        <dd> Linguagem, método de comunicação </dd>
+    </dl>
+
+
+
+    <!--
+        Outro assunto    ----------------------------------------------
+    -->
+
+    <!--
+        Representando códigos de computador
+
+            <code>
+                Partes genéricas de código (muda a cor sinalizando os caracteres de um código escrito).
+
+            <pre>
+                Blocos de código, esta tag mantém os espaçamentos e recuos do código.
+        
+    -->
+    
+    <h2> Exemplo de &lt;code&gt; e &lt;pre&gt; </h2>
+
+        <pre>
+            <code>
+                Vamos ver aqui um código em outra formatação e espaçamento/recuo;
+ p o ss o                              escrever assim,         e o html      respeitará ;)             
+            </code>
+        </pre>
+
+
+    <!--
+        Outro assunto    ----------------------------------------------
+    -->
+
+
+    <!--
+        Elementos genéricos
+
+            <div>   (funciona como elemento de bloco);
+            <span>  (elemento de linha).
+
+        Importante para no futuro poder utilizar junto a outras linguagens
+            de programação como Javascript e CSS.
+    -->
+
+    <h2> Elementos genéricos </h2>
+
+        <code> &lt;div&gt;  </code> - funciona como elemento de bloco; <br>
+        <code> &lt;span&gt; </code> - elemento de linha.
+    <p>
+        <b>
+
+            Importante para no futuro poder utilizar junto a outras linguagens
+            de programação como Javascript e CSS.
+            
+        </b>
+    </p>
+
+
+
+
+
+
+
+
+
 
 
 </body>    
