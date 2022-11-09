@@ -415,7 +415,7 @@
     <a href="http://google.com" title="Ir para google">
         <h1>Google</h1>
         <p>Mesmo endereço com outro texto</p>
-        <img src="https://source.unsplash.com/random" alt="">
+        <!-- <img src="https://source.unsplash.com/random" alt=""> -->
     </a>
     <br>
 
@@ -441,6 +441,78 @@
         Caso você coloque um arquivo que não existe ou mesmo está no diretório errado, vai dar erro de não ter encontrado o arquivo.
         
     -->
+
+    <!--
+        Tabelas: <table>
+                <thead>, <tbody>, <tfoot>
+                <caption> (descrever o que a tabela faz)
+                    <tr> (linha na tabela), 
+                        <th> (cabeçalho)
+                        <td> (cada coluna)
+    -->
+
+    <h2>Tabelas</h2>
+
+    <table>
+        <tr>
+            <th>Nome</th>
+            <th>Idade</th>
+        </tr>
+        <tr>
+            <td>Pedro</td>
+            <td>22</td>
+        </tr>
+        <tr>
+            <td>Lincoln</td>
+            <td>64</td>
+        </tr>
+    </table>
+
+    <br>
+    
+     <table>
+        <caption>Produzidos x Vendidos por Loja</caption>
+
+        <colgroup>
+            <col>
+            <col  span="2" style="background-color: aquamarine;">    
+            <col  span="2" style="background-color: brown;">    
+        </colgroup>
+        
+        <thead>
+            <tr>
+                <th rowspan="2"></th>
+                <th colspan="2" scope="colgroup">Pedro Prado</th>
+                <th colspan="2" scope="colgroup">Lincoln Ramos</th>
+            </tr>
+
+            <tr>
+                <th scope="col">Produzidos</th>
+                <th scope="col">Vendidos</th>
+                <th scope="col">Produzidos</th>
+                <th scope="col">Vendidos</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            <tr>
+                <th>Vassouras</th>
+                <td scope="row">50</td>
+                <td scope="row">30</td>
+                <td scope="row">20</td>
+                <td scope="row">20</td>
+            </tr>
+
+            <tr>
+                <th>Baldes</th>
+                <td scope="row">10</td>
+                <td scope="row">10</td>
+                <td scope="row">30</td>
+                <td scope="row">25</td>
+            </tr>
+        </tbody>
+    </table>
+ 
 </body>    
 
 </html>
